@@ -23,7 +23,7 @@ Advantages to system:
 | people | Storage of files and media for friends and family mostly |
 | rclone-mounts | Clean place to mount networked drives, cloud backups mainly |
 
-## Remove all those placeholder files
+## Download this system & delete those placeholders
 
 Each bottom level directory has a blank file so github will show the structure.
 
@@ -42,3 +42,9 @@ To remove the blanks, follow these instructions:
 - I'm not a big media or videogame person. Feel free to add to what's there!
 - If you can keep job stuff on job computers, always prefer that.
 - Feel free to expand or delete the `./ed/private/pda/gtd/` directory
+
+# License
+
+For the truly neurotic, this project is licensed under the Zero-Clause BSD.
+
+Do whatever you like w/ it. If anything, *I'm honored* you'd even care. Thanks!

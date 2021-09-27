@@ -1,6 +1,3 @@
-# Justification for license
-Although I don't believe folder structure is inherently copyrightable, I've decided to include the most permissive license I could find *just in case*.
-
 # Zero-Clause BSD
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.
 
