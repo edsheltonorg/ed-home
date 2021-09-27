@@ -9,12 +9,12 @@ I prefer to keep all these folders on a separate NTFS partition.
 | archival | Storage of media and files intended primarily for archival |
 | ed | User related files and media |
 | job   | Job related files and media, separated for easier discernment |
-| media | Traditional unchanging large format shareable content |
+| media | Traditional large-format shareable static content |
 | media-games | Storage of videogame media |
 | media-sw | Storage of user-agnostic software media |
 | people | Storage of files and media from other users |
 
-## Cleaning up for real use
+## Remove all those placeholder files
 
 Each bottom level directory has a blank file so github will show the structure.
 
