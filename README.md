@@ -13,3 +13,16 @@ I prefer to keep all these folders on a separate NTFS partition.
 | media-games | Storage of videogame media |
 | media-sw | Storage of user-agnostic software media |
 | people | Storage of files and media from other users |
+
+## Cleaning up for real use
+
+Each bottom level directory has a blank file so github will show the structure.
+
+To remove the blanks, follow these instructions:
+
+- `git clone https://github.com/edsheltonorg/ed-folder-structure.git`
+- `cd ed-folder-structure`
+- Run my placeholder script:
+    - Windows: `.\RebuildPlaceHolder.ps1`
+    - Linux: `python rebuild_placeholder.py`
+- Select option `2`
