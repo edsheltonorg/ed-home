@@ -8,6 +8,7 @@ Advantages to system:
 - Structure naturally divides by purpose, visibility, and utility to user.
 - Structure easy to backup or quickly move around.
 - Structure has version control and backups in mind.
+- Included is a Get-Things-Done system I use, found in `./ed/private/pda/gtd/`
 
 ## Overview
 
@@ -34,3 +35,10 @@ To remove the blanks, follow these instructions:
     - Windows: `.\RebuildPlaceHolder.ps1`
     - Linux: `python rebuild_placeholder.py`
 - Select option `2`
+
+## Recommendations
+
+- I would change the user directory from `./ed/` to your name or handle `:)`
+- I'm not a big media or videogame person. Feel free to add to what's there!
+- If you can keep job stuff on job computers, always prefer that.
+- Feel free to expand or delete the `./ed/private/pda/gtd/` directory
