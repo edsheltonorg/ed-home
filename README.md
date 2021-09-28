@@ -1,6 +1,6 @@
 # Project Overview
 
-This is my personal directory structure & system I've used for a long time.
+This is my personal directory structure.
 
 Advantages to system:
 - Root is completely seperate from preferred OS, increasing portability.
@@ -36,16 +36,21 @@ To remove the blanks, follow these instructions:
     - Linux: `python rebuild_placeholder.py`
 - Select option `2`
 
-## Recommendations
+## Technical Recommendations
+
+- If dual-booting, I'd elect NTFS. MacOS/Windows/Linux/BSD all support it well.
+- I'd stay away from exFAT b/c it lacks a lot of data integrity other FSs have.
+- I encourage scripting your backups to encrypted `rclone-mounts`.
+
+## Structure Recommendations
 
 - I would change the user directory from `./ed/` to your name or handle `:)`
 - I'm not a big media or videogame person. Feel free to add to what's there!
 - If you can keep job stuff on job computers, always prefer that.
 - Feel free to expand or delete the `./ed/private/pda/gtd/` directory.
-- I encourage scripting your backups to `rclone-mounts`.
 
 # License
 
-For the truly neurotic, this project is licensed under the Zero-Clause BSD.
+Licensed under the Zero-Clause BSD.
 
-Do whatever you like w/ it. If anything, *I'm honored* you'd even care. Thanks!
+Treat this as you would public domain work, no attribution required. Thank you!
