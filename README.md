@@ -17,7 +17,7 @@ Advantages to system:
 | archival | Storage of files and media intended for archival use primarily |
 | ed | User related files and media |
 | job   | Job related files and media, separated for easier discernment |
-| media | Traditional large-format shareable static content |
+| media | Traditional large-format shareable static content, think Plex server |
 | media-games | Storage of videogame media |
 | media-sw | Storage of user-agnostic software media |
 | people | Storage of files and media for friends and family mostly |
@@ -41,7 +41,8 @@ To remove the blanks, follow these instructions:
 - I would change the user directory from `./ed/` to your name or handle `:)`
 - I'm not a big media or videogame person. Feel free to add to what's there!
 - If you can keep job stuff on job computers, always prefer that.
-- Feel free to expand or delete the `./ed/private/pda/gtd/` directory
+- Feel free to expand or delete the `./ed/private/pda/gtd/` directory.
+- I encourage scripting your backups to `rclone-mounts`.
 
 # License
 

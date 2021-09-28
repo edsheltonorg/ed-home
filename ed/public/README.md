@@ -5,6 +5,6 @@
 | code | Programming |
 | dot | Configuration files |
 | edu | Course work |
-| references | Citations |
+| references | Offline copies of reference info I use often |
 | templates | Reuseable files |
 | wiki | Documentation about things written to be referenced later |
