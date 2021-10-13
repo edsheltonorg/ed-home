@@ -2,7 +2,7 @@
 
 | Directory | Contents                                                     |
 | ---------- | ------------------------------------------------------------ |
-| bin | non-version-controlled programs that are portable and usually pathed
+| bin | non-version-controlled programs that are portable and usually pathed |
 | dump | temporary landing location for files |
 | media-projects | works that are difficult to source control |
 | media-tools | media that serves to create other media or has utility |

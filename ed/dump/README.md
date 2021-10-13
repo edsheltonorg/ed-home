@@ -2,7 +2,7 @@
 
 | Directory | Contents                                                     |
 | ---------- | ------------------------------------------------------------ |
-| downloads | generic downloads directory, including torrents and youtube-dl |
+| downloads | generic downloads directory, i.e. torrents, youtube-dl, and code |
 | ingress | generic directory for dumping media from software or equipment |
 | logs | generic location for software logs |
 | process-begin | if necessary, interim folder for processing |
