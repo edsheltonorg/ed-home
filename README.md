@@ -24,7 +24,7 @@ This format should be mostly universal regardless of hobbies and OS.
 
 This directory holds all files unique to the user and the OS.
 
-```python
+```powershell
 bin                       # Binary files for OS(s) path(s)
 |-- cross-platform
 |-- cross-platform-posix
@@ -92,7 +92,7 @@ virtualization            # Virtual media and related software
 
 This directory holds all files that can be shared with others.
 
-```python
+```powershell
 archival                  # Archives of media, web pages, and data
 
 backup                    # File and OS image level backups
