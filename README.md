@@ -193,7 +193,7 @@ While this is my personal setup, you can easily extend it.
 
 - Projects can be sorted and created for anything you want
 - If you need to create a logically separate profile, make another \<user>
-- Servers aren't necessary, you can simply organize files now and copy later
+- Servers aren't necessary, you can organize the files now & copy later
 
 The included scripts allow you to easily create a repo yourself!
 
