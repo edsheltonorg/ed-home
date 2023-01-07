@@ -177,8 +177,8 @@ The included scripts can remove them quickly:
 cd $HOME
 
 # Download and move into the project
-git clone https://github.com/edsheltonorg/ed-home-directory.git
-cd ed-home-directory
+git clone https://github.com/edsheltonorg/ed-home.git
+cd ed-home
 
 # Remove placeholders [Windows / PowerShell]; option "2"
 .\RebuildPlaceHolder.ps1
