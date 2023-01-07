@@ -25,16 +25,9 @@ This format should be mostly universal regardless of hobbies and OS.
 This directory holds all files unique to the user and the OS.
 
 ```powershell
-bin                       # Binary files for OS(s) path(s)
-|-- cross-platform
-|-- cross-platform-posix
-|-- linux
-|-- macos
-`-- windows
-
-documents                 # Traditional uncategorized work location
-
-downloads                 # Traditional download/export location
+bin                       # Binary files for OS (copied from server)
+documents                 # Uncategorized work / scratch space
+downloads                 # Downloads & exports
 
 media
 |-- events                    # Media best categorized by time and place
@@ -45,7 +38,8 @@ media
 |-- reaction
 `-- social                    # Media best categorized by social groups
 
-network                   # Place to mount network locations
+network                   # Place to mount various network locations
+`-- sharing                   # Local network sharing
 
 private                   # Personal data, intended only for me
 |-- computer-data             # Data unique to me, used by programs
@@ -83,9 +77,7 @@ projects                  # Main working location, sorted by function
 |-- gaming
 `-- meme
 
-shared                    # Local network sharing
-
-virtualization            # Virtual media and related software
+virtualization            # Virtual machines
 ```
 
 # `$HOME/Servers` or `/Servers`
