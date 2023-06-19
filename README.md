@@ -9,7 +9,9 @@ Basically I've kept it as simple as possible!
 
 # `$HOME/ed`
 
-Location for files used ***primarily by you*** :
+Location for files used ***only by you or your system***.
+
+Put this directory *under* your `$HOME` so the OS doesn't pollute it.
 
 ```powershell
 app-testing               # Testing different servers, services, and VMs
@@ -54,7 +56,7 @@ scratch                   # Area to experiment or put temporary work
 
 These are files used ***by multiple people or systems***.
 
-At some point, each folder can be replaced by a dedicated server.
+At some point, each directory can be replaced by a service and/or server.
 
 ```powershell
 apps                      # Production servers, services, and VMs
