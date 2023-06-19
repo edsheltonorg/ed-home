@@ -1,32 +1,19 @@
 # Ed's Home Directory
 
-Welcome to my Home Directory!
+Here are my main goals:
 
-Three big issues plague other directories styles:
+- Directories can be backed up by function.
+- Files are easily discoverable.
 
-1. Too specific directory nesting
-2. Strict file type over file function
-3. No clean hand-off to managing software
+Basically I've kept it as simple as possible!
 
-This ultimately wastes your time since its not easily sustainable.
+# `$HOME/ed`
 
-# Advantages
-
-Using low-depth, function-first, user/server split directories:
-
-- Scoped file-level backups are nearly free
-- Portable & archivable units of data become normal
-- Lower overall count of directories make discovery easier
-
-This format should be mostly universal regardless of hobbies and OS.
-
-# `$HOME/<USER>`
-
-This directory holds all files unique to the user and the OS.
+Location for files used ***primarily by you*** :
 
 ```powershell
+app-testing               # Testing different servers, services, and VMs
 bin                       # Binary files for OS (copied from server)
-documents                 # Uncategorized work / scratch space
 downloads                 # Downloads & exports
 
 media
@@ -34,61 +21,45 @@ media
 |-- funny
 |-- people
 |-- playlists
-|-- professional              # Pictures of self for work
-|-- reaction
-`-- social                    # Media best categorized by social groups
+|-- reactions
+|-- social                    # Media best categorized by social groups
+`-- wallpaper
 
-network                   # Place to mount various network locations
-`-- sharing                   # Local network sharing
+private-data              # Personal data
+|-- bookmarks
+|-- contacts
+|-- dotfiles
+|-- keys-and-certs
+|-- knowledge-management      # Data used for personal knowledge system
+|-- paperwork                 # Copies of documents and receipts
+|-- passwords
+|-- professional              # Professional pictures & resumes
+|-- rss
+`-- vpn
 
-private                   # Personal data, intended only for me
-|-- computer-data             # Data unique to me, used by programs
-|   |-- bookmarks
-|   |-- contacts
-|   |-- dotfiles
-|   `-- rss
-|
-|-- computer-secrets          # Data that holds login information
-|   |-- keys
-|   |-- otp
-|   |-- passwords
-|   `-- vpn
-|
-|-- knowledge-management      # Data used for personal wiki system
-|
-`-- paperwork                 # Copies of documents and receipts
-    |-- education
-    |-- financial
-    |-- government
-    |-- healthcare
-    |-- identification
-    |-- insurance
-    |-- job
-    |-- legal
-    |-- property
-    `-- receipts
-
-projects                  # Main working location, sorted by function
-|-- business
-|-- code                      # Private code
-|-- code-public               # Publicly tracked code, exercise caution
+projects                  # Main working location, feel free to add more
+|-- code
 |-- education
 |-- family
 |-- gaming
 `-- meme
 
-virtualization            # Virtual machines
+projects-public           # Separate working location for public info
+|-- code
+`-- media
+
+scratch                   # Area to experiment or put temporary work
 ```
+# `$HOME/Servers`
 
-# `$HOME/Servers` or `/Servers`
+These are files used ***by multiple people or systems***.
 
-This directory holds all files that can be shared with others.
+At some point, each folder can be replaced by a dedicated server.
 
 ```powershell
+apps                      # Production servers, services, and VMs
 archival                  # Archives of media, web pages, and data
-
-backup                    # File and OS image level backups
-
+backups                   # File and OS image level backups
 documentation             # Reference copies for citations
 |-- education
 |-- manuals
@@ -100,8 +71,6 @@ family                    # Collaborative server for family
 |-- projects
 |-- secrets
 `-- temp
-
-log                       # Ingress location for logs
 
 media                     # Media server
 |-- audio
@@ -127,31 +96,31 @@ media                     # Media server
 |   |-- magazines
 |   `-- misc
 |
-|-- video
-|   |-- broadcasts
-|   |-- discs
-|   |-- movies
-|   |-- shows
-|   `-- web
+`-- video
+    |-- broadcasts
+    |-- discs
+    |-- movies
+    |-- shows
+    `-- web
+
+media-project-tools         # Media used in the creation of media
+|-- audio
+|   |-- midi
+|   |-- sample-packs
+|   |-- soundfonts
+|   |-- stems
+|   |-- tabs-and-sheets
+|   `-- tool-audio
 |
-`-- project-tools             # Media used in the creation of media
-    |-- audio
-    |   |-- midi
-    |   |-- sample-packs
-    |   |-- soundfonts
-    |   |-- stems
-    |   |-- tabs-and-sheets
-    |   `-- tool-audio
-    |
-    |-- picture
-    |   |-- stock-clip-art
-    |   |-- stock-photos
-    |   `-- tool-pictures
-    |
-    `-- video
-        |-- stock
-        |-- stock-fx
-        `-- tool-videos
+|-- picture
+|   |-- stock-clip-art
+|   |-- stock-photos
+|   `-- tool-pictures
+|
+`-- video
+    |-- stock
+    |-- stock-fx
+    `-- tool-videos
 
 software
 |-- font
