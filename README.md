@@ -68,6 +68,7 @@ At some point, each directory can be replaced by a service and/or server.
 apps                      # Production servers, services, and VMs
 archival                  # Archives of media, web pages, and data
 backups                   # File and OS image level backups
+
 documentation             # Reference copies for citations
 |-- education
 |-- manuals
