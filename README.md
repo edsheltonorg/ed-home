@@ -1,9 +1,10 @@
 # Ed's Home Directory
 
-Here are my main goals:
+My main goals for the structure:
 
-- Directories can be backed up by function.
-- Files are easily discoverable.
+1. Files are easily discoverable.
+2. Directories can be selectively backed up.
+3. Services can be dropped-in-place.
 
 Basically I've kept it as simple as possible!
 
@@ -52,7 +53,12 @@ projects-public           # Separate working location for public info
 
 scratch                   # Area to experiment or put temporary work
 ```
-# `$HOME/Servers`
+
+# `$HOME/network`
+
+Directory for both temporary and permanent network locations.
+
+# `$HOME/servers`
 
 These are files used ***by multiple people or systems***.
 
@@ -153,25 +159,8 @@ cd ed-home
 
 # Remove placeholders [Windows / PowerShell]; option "2"
 .\RebuildPlaceHolder.ps1
-
 # Remove placeholders [Cross-Platform / Python]; options "2"
 python rebuild_placeholder.py
 ```
 
-# Considerations
-
-While this is my personal setup, you can easily extend it.
-
-- Projects can be sorted and created for anything you want
-- If you need to create a logically separate profile, make another \<user>
-- Servers aren't necessary, you can organize the files now & copy later
-
-The included scripts allow you to easily create a repo yourself!
-
-# License
-
-Licensed under the Zero-Clause BSD.
-
-Treat this as you would public domain work.
-
-Thank you!
+Thanks again!
