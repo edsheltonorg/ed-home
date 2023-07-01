@@ -8,6 +8,12 @@ My main goals for the structure:
 
 Basically I've kept it as simple as possible!
 
+# `$HOME/backups`
+
+Root level backup to encourage frequeny use w/o worrying about recursion.
+
+Feel free to remove this directory if you have any other backup system.
+
 # `$HOME/ed`
 
 Location for files used ***only by you or your system***.
@@ -67,7 +73,6 @@ At some point, each directory can be replaced by a service and/or server.
 ```powershell
 apps                      # Production servers, services, and VMs
 archival                  # Archives of media, web pages, and data
-backups                   # File and OS image level backups
 
 documentation             # Reference copies for citations
 |-- education
